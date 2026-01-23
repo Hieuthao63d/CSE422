@@ -1,0 +1,17 @@
+@model Lab2.Models.User
+@{ ViewData["Title"] = "Delete User"; }
+
+<div class="container mt-4">
+    <h2 class="text-danger">Delete User</h2>
+    <h4>Are you sure you want to delete user: <strong>@Model.FullName</strong>?</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">Email</dt>
+        <dd class="col-sm-10">@Model.Email</dd>
+    </dl>
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="Delete" class="btn btn-danger" />
+        <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+    </form>
+</div>

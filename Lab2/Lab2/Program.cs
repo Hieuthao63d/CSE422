@@ -1,7 +1,13 @@
+using Lab2.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddSingleton<DeviceCategoryService>();
+builder.Services.AddSingleton<UserService>();
+builder.Services.AddSingleton<DeviceService>();
 
 var app = builder.Build();
 
