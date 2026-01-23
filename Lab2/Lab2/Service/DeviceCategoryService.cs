@@ -8,7 +8,6 @@ namespace Lab2.Services
 
         public DeviceCategoryService()
         {
-            // Mock Data (Dữ liệu giả lập)
             _categories = new List<DeviceCategory>
             {
                 new DeviceCategory { Id = 1, Name = "Laptop", Description = "Portable computers" },
@@ -30,7 +29,6 @@ namespace Lab2.Services
 
         public void Add(DeviceCategory category)
         {
-            // Tự động tăng ID
             category.Id = _categories.Any() ? _categories.Max(c => c.Id) + 1 : 1;
             _categories.Add(category);
         }

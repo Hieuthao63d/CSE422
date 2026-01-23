@@ -16,12 +16,10 @@ namespace Lab2.Models
         [Display(Name = "Device Code")]
         public string Code { get; set; }
 
-        // Foreign Key logic (Mock)
         [Required(ErrorMessage = "Please select a category.")]
         [Display(Name = "Category")]
         public int CategoryId { get; set; }
 
-        // Navigation property (Optional for Mock, but good for structure)
         public DeviceCategory Category { get; set; }
 
         [Required(ErrorMessage = "Status is required.")]

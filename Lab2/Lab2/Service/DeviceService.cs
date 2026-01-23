@@ -16,25 +16,24 @@ namespace Lab2.Services
             };
         }
 
-        // Hàm GetAll hỗ trợ Search và Filter
         public List<Device> GetAll(string? search = null, int? categoryId = null, DeviceStatus? status = null)
         {
             var result = _devices.AsQueryable();
 
-            // 1. Search by Name or Code
+            // Search by Name or Code
             if (!string.IsNullOrEmpty(search))
             {
                 search = search.ToLower();
                 result = result.Where(d => d.Name.ToLower().Contains(search) || d.Code.ToLower().Contains(search));
             }
 
-            // 2. Filter by Category
+            // Filter by Category
             if (categoryId.HasValue)
             {
                 result = result.Where(d => d.CategoryId == categoryId.Value);
             }
 
-            // 3. Filter by Status
+            // Filter by Status
             if (status.HasValue)
             {
                 result = result.Where(d => d.Status == status.Value);
