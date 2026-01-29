@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "jFWaT3S/mLU=",
+  "success": true,
+  "projectFilePath": "D:\\CSE422\\CSE422_Github\\CSE422\\Lab3\\Lab3\\Lab3.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Phan Thao\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.21.0\\microsoft.visualstudio.azure.containers.tools.targets.1.21.0.nupkg.sha512"
+  ],
+  "logs": []
+}
