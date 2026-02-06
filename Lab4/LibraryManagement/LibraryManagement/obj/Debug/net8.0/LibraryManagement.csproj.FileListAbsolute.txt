@@ -1,0 +1,15 @@
+D:\CSE422\CSE422_Github\CSE422\Lab4\LibraryManagement\LibraryManagement\bin\Debug\net8.0\LibraryManagement.exe
+D:\CSE422\CSE422_Github\CSE422\Lab4\LibraryManagement\LibraryManagement\bin\Debug\net8.0\LibraryManagement.deps.json
+D:\CSE422\CSE422_Github\CSE422\Lab4\LibraryManagement\LibraryManagement\bin\Debug\net8.0\LibraryManagement.runtimeconfig.json
+D:\CSE422\CSE422_Github\CSE422\Lab4\LibraryManagement\LibraryManagement\bin\Debug\net8.0\LibraryManagement.dll
+D:\CSE422\CSE422_Github\CSE422\Lab4\LibraryManagement\LibraryManagement\bin\Debug\net8.0\LibraryManagement.pdb
+D:\CSE422\CSE422_Github\CSE422\Lab4\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.GeneratedMSBuildEditorConfig.editorconfig
+D:\CSE422\CSE422_Github\CSE422\Lab4\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.AssemblyInfoInputs.cache
+D:\CSE422\CSE422_Github\CSE422\Lab4\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.AssemblyInfo.cs
+D:\CSE422\CSE422_Github\CSE422\Lab4\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.csproj.CoreCompileInputs.cache
+D:\CSE422\CSE422_Github\CSE422\Lab4\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.sourcelink.json
+D:\CSE422\CSE422_Github\CSE422\Lab4\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.dll
+D:\CSE422\CSE422_Github\CSE422\Lab4\LibraryManagement\LibraryManagement\obj\Debug\net8.0\refint\LibraryManagement.dll
+D:\CSE422\CSE422_Github\CSE422\Lab4\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.pdb
+D:\CSE422\CSE422_Github\CSE422\Lab4\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.genruntimeconfig.cache
+D:\CSE422\CSE422_Github\CSE422\Lab4\LibraryManagement\LibraryManagement\obj\Debug\net8.0\ref\LibraryManagement.dll
